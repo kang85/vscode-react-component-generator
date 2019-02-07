@@ -7,6 +7,14 @@
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
 [![GitHub](https://flat.badgen.net/github/release/abdullahceylan/vscode-react-component-generator)](https://github.com/abdullahceylan/vscode-react-component-generator/releases)
 
+# <<<<<<< HEAD
+
+## Other Versions
+
+[Please click here for React Native version](https://marketplace.visualstudio.com/items?itemName=abdullahceylan.vscode-react-native-component-generator)
+
+> > > > > > > 5a4a83f9673b30a1579e9d942a8bf00e0ae26573
+
 ## Description
 
 The extension automatically creates folder for react component containing :
@@ -40,13 +48,24 @@ ext install abdullahceylan.vscode-react-component-generator
   - "New React Stateless Component with Redux"
 - Enter a component name in the pop up in camelCase or PascalCase. If you enter the component name as in camelCase, then extension will convert it PascalCase automatically.
 
+<<<<<<< HEAD
 ![Container component](https://github.com/abdullahceylan/vscode-react-component-generator/raw/master/assets/images/vscode-1.gif)
 
 ![Basic component](https://github.com/abdullahceylan/vscode-react-component-generator/raw/master/assets/images/vscode-2.gif)
 
 ![Container component with redux](https://github.com/abdullahceylan/vscode-react-component-generator/raw/master/assets/images/vscode-3.gif)
 
-![Extension settings](https://github.com/abdullahceylan/vscode-react-component-generator/raw/master/assets/images/vscode-settings.png)
+# ![Extension settings](https://github.com/abdullahceylan/vscode-react-component-generator/raw/master/assets/images/vscode-settings.png)
+
+![Container component](assets/images/vscode-1.gif)
+
+![Basic component](assets/images/vscode-2.gif)
+
+![Container component with redux](assets/images/vscode-3.gif)
+
+![Extension settings](assets/images/vscode-settings.png)
+
+> > > > > > > 5a4a83f9673b30a1579e9d942a8bf00e0ae26573
 
 ## Configuration
 
@@ -61,14 +80,14 @@ Generate or not separate folder for newly created component
 Controls the quotes for the imports in the files. Valid options:
 
 - "single" - e.g.: import React from `'`react`'`
-- "double"  - e.g.: import React from `"`react`"`
+- "double" - e.g.: import React from `"`react`"`
 
 ### `ACReactComponentGenerator.global.lifecycleType` (default: `legacy`)
 
 The lifecycle type of generated component. Valid options:
 
 - "legacy" - Contains `componentWillReceiveProps`, `componentWillMount`
-- "reactv16"  - Contains `getSnapshotBeforeUpdate`, `getDerivedStateFromProps`, `getDerivedStateFromError`, `componentDidCatch` and removes `componentWillReceiveProps` and `componentWillMount`
+- "reactv16" - Contains `getSnapshotBeforeUpdate`, `getDerivedStateFromProps`, `getDerivedStateFromError`, `componentDidCatch` and removes `componentWillReceiveProps` and `componentWillMount`
 
 ### `ACReactComponentGenerator.indexFile.create` (default: `true`)
 
